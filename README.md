@@ -36,7 +36,7 @@ We clean will make your life easier.
 
 |View Jobs and make an offer|
 |--|
-|<img src="" alt="animated"/>|
+|<img src="https://media.giphy.com/media/JS7mhYEFoRnbB7jWAZ/giphy.gif" alt="animated"/>|
 
 </br>
 

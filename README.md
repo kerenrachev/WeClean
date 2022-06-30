@@ -1,4 +1,4 @@
-<p align="center"><img src="app/src/main/res/drawable/ic_logo.png" height="300" width="300"></p>
+<p align="center"><img src="app/src/main/res/drawable/ic_logo.png" height="200" width="300"></p>
 <br/>
 <h3 align="center">Android App</h3>
 <h1 align="center">Welcome To We Clean!</h1>

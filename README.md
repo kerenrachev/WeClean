@@ -34,7 +34,7 @@ google.maps_api_key=YOU_API_KEY
   
 ## :link: Menu:
 
-- [Features](https://github.com/kerenrachev/WeClean_Android/blob/master/README.md#framed_picture-features)</br>
+- [Features](https://github.com/kerenrachev/WeClean_Android/blob/master/README.md#framed_picture-features-and-technologies)</br>
 - [Screen Gifs](https://github.com/kerenrachev/WeClean_Android/blob/master/README.md#iphone-screen-gifs)</br>
 - [Future Plan](https://github.com/kerenrachev/WeClean_Android/blob/master/README.md#pencil-future-plan)</br>
 

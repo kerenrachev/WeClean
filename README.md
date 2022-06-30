@@ -20,8 +20,17 @@ We clean will make your life easier.
 - [Credits](https://github.com/kerenrachev/WeClean/blob/master/README.md#pray-credits)</br>
 
 
-## :space_invader: Features
-
+## :space_invader: Features and used technologies
+- FireBase storage
+- FireBase Auth
+- FireBase Realtime DB
+- Google maps
+- Google Places Auto Complete
+- Recycle Views\ Adapters
+- Fragments
+- Navigator bars
+- Animations
+- Realtime Notifications
 
 ## 🏌️: Screen Gifs
 

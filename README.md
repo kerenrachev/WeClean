@@ -23,35 +23,27 @@ We clean will make your life easier.
 ## :space_invader: Features
 
 
-## :iphone: Screen Gifs
+## 🏌️: Screen Gifs
 
-### :calling: Login
+### 📲: Login\ Sign Up
 
+### 👔: Jobs
 
-### :pencil2: Sign Up
+### 📇: Service Cards
 
-</br>
-</br>
-
-### :shirt: Items
-
-</br>
-
-</br>
-</br>
-
-### :walking: Outfits
+### 🔔: Notifications
 
 
 
 
 ## :pencil: Future Plan 
 - Edit profile
-- Delete items
-- Delete outfits
-- Edit items/outfits details
-- Share your outfits with friends through a link in other apps
+- Edit Service Card
+- Delete Profile
+- Delete Service Card
+- Create new Fragment for job offers
+- Show time passed in notifications, comments, and jobs
+- Calculate distance from user to Jobs
 
-## :pray: Credits
 
 

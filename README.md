@@ -34,9 +34,9 @@ We clean will make your life easier.
 
 ### 👔: Jobs
 
-|View Jobs and make an offer|
-|--|
-|<img src="https://media.giphy.com/media/JS7mhYEFoRnbB7jWAZ/giphy.gif" alt="animated"/>|
+|View Jobs and make an offer|Create New Job|
+|--|--|
+|<img src="https://media.giphy.com/media/JS7mhYEFoRnbB7jWAZ/giphy.gif" alt="animated"/>|<img src="" alt="animated"/>|
 
 </br>
 
@@ -49,7 +49,11 @@ We clean will make your life easier.
 </br>
 
 ### 🔔: Notifications
+|Show Notifications|
+|--|
+|<img src="" alt="animated"/>|
 
+</br>
 
 
 

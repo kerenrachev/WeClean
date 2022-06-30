@@ -34,7 +34,19 @@ We clean will make your life easier.
 
 ### 👔: Jobs
 
+|View Jobs and make an offer|
+|--|
+|<img src="" alt="animated"/>|
+
+</br>
+
 ### 📇: Service Cards
+
+|Create Service Card|View Service Cards|More Deatils|Rate Service Card|
+|--|--|--|--|
+|<img src="https://media.giphy.com/media/XVPoUNEsqmtDgX7ebV/giphy.gif" alt="animated"/>|<img src="" alt="animated"/>|<img src="" alt="animated"/>|<img src="" alt="animated"/>|
+
+</br>
 
 ### 🔔: Notifications
 

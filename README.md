@@ -12,6 +12,11 @@
 We clean will make your life easier. 
 </h4> 
 
+## :exclamation: Instructions 
+<h4 align="center">This app solves the problem!</br>
+We clean will make your life easier. 
+</h4> 
+
 ## :link: Menu:
 
 - [Features](https://github.com/kerenrachev/WeClean/blob/master/README.md#space_invader-features)</br>

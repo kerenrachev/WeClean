@@ -34,7 +34,7 @@ google.maps_api_key=YOU_API_KEY
   
 ## :link: Menu:
 
-- [Features](https://github.com/kerenrachev/WeClean_Android/blob/master/README.md#space_invader-features)</br>
+- [Features](https://github.com/kerenrachev/WeClean_Android/blob/master/README.md#framed_picture-features)</br>
 - [Screen Gifs](https://github.com/kerenrachev/WeClean_Android/blob/master/README.md#iphone-screen-gifs)</br>
 - [Future Plan](https://github.com/kerenrachev/WeClean_Android/blob/master/README.md#pencil-future-plan)</br>
 
@@ -51,9 +51,9 @@ google.maps_api_key=YOU_API_KEY
 - Animations
 - Realtime Notifications
 
-## 🏌️: Screen Gifs
+## :framed_picture: Screen Gifs
 
-### 📲: Login\ Sign Up
+### :iphone: Login\ Sign Up
 |Login to account|Create account|Logout|
 |--|--|--|
 |<img src="https://media.giphy.com/media/NwaYMQdhULhU7BCc2A/giphy.gif" alt="animated"/>|<img src="https://media.giphy.com/media/tCIQSofpyNMwA5swNf/giphy.gif" alt="animated"/>|<img src="https://media.giphy.com/media/4B0tR1Skn7JHW1Ir4W/giphy.gif" alt="animated"/>|

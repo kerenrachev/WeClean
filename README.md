@@ -44,7 +44,7 @@ We clean will make your life easier.
 
 |Create Service Card|View Service Cards|More Deatils|Rate Service Card|
 |--|--|--|--|
-|<img src="https://media.giphy.com/media/XVPoUNEsqmtDgX7ebV/giphy.gif" alt="animated"/>|<img src="" alt="animated"/>|<img src="" alt="animated"/>|<img src="" alt="animated"/>|
+|<img src="https://media.giphy.com/media/XVPoUNEsqmtDgX7ebV/giphy.gif" alt="animated"/>|<img src="" alt="animated"/>|<img src="https://media.giphy.com/media/69xbRl38qMYWRkKJEZ/giphy.gif" alt="animated"/>|<img src="https://media.giphy.com/media/ddaFKn22Z7c2BhSSRc/giphy.gif" alt="animated"/>|
 
 </br>
 

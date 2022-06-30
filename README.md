@@ -27,7 +27,7 @@ We clean will make your life easier.
 
 ### 📲: Login\ Sign Up
 |Login to account|Create account|Logout|
-|--|--|--|--|
+|--|--|--|
 
 
 |<img src="https://media.giphy.com/media/AAOrgReKExiovScnlL/giphy.gif" alt="animated"/>|<img src="https://media.giphy.com/media/4B0tR1Skn7JHW1Ir4W/giphy.gif" alt="animated"/>|<img src="https://media.giphy.com/media/pN35z8KALUiaPEM7oY/giphy.gif" alt="animated"/>|

@@ -62,9 +62,12 @@ google.maps_api_key=YOU_API_KEY
 </br>
 
 ### 👔: Jobs
-<h5>Only a user who has created a service giver card will be able to view listed jobs.
-When a user without a service card clicks on "Jobs", the application will suggest him to create a service card.
-Users can offer themselves for a job, which will send a notification to the job poster.</h5>
+<h5>
+ - Only a user who has created a service giver card will be able to view listed jobs.
+ - When a user without a service card clicks on "Jobs", the application will suggest him to create a service card.
+ - Users can offer themselves for a job, which will send a notification to the job poster.
+ - Users can post a new job to find a cleaner.
+ - Users can view OTHERS jobs only at this point.</h5>
 
 |View Jobs and make an offer|Create New Job|
 |--|--|

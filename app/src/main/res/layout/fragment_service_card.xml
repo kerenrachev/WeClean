@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Fragment_Service_Card">
+
+    <ScrollView
+        android:id="@+id/card_LAY_card"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="end"
+                android:background="#FFFFFF">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/card_LBL_fullname"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="30dp"
+                        android:background="#4F82BF"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:fontFamily="@font/arimafont"
+                        android:textStyle="bold"
+                        android:text="FULL NAME"
+                        android:textColor="@color/white"
+                        android:textSize="18sp">
+
+                    </com.google.android.material.textview.MaterialTextView>
+                    <ImageView
+                        android:id="@+id/serviceCard_IMG_star1"
+                        android:layout_width="20dp"
+
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_star"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/serviceCard_IMG_star2"
+                        android:layout_toEndOf="@+id/serviceCard_IMG_star1"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_star"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/serviceCard_IMG_star3"
+                        android:layout_toEndOf="@+id/serviceCard_IMG_star2"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_star"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/serviceCard_IMG_star4"
+                        android:layout_toEndOf="@+id/serviceCard_IMG_star3"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_star"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/serviceCard_IMG_star5"
+                        android:layout_toEndOf="@+id/serviceCard_IMG_star4"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_star"
+                        android:visibility="gone" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/serviceCard_IMG_user"
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:layout_alignEnd="@+id/card_LBL_fullname"
+                        android:scaleType="centerCrop"
+                        android:src="#4F82BF" />
+
+                </RelativeLayout>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        >
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:layout_marginLeft="0dp"
+                            android:background="#4D5F85"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/white"
+                            android:text="Description"
+                            android:fontFamily="@font/arimafont"
+                            android:textStyle="bold"
+                            android:elevation="30dp"
+                            android:textSize="12sp">
+
+                        </com.google.android.material.textview.MaterialTextView>
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/card_LBL_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/customborder"
+                            android:fontFamily="@font/arimafont"
+                            android:textStyle="bold"
+                            android:padding="32dp"
+                            android:text="Description"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        >
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dp"
+                            android:background="#4D5F85"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/white"
+                            android:text="Phone number"
+                            android:fontFamily="@font/arimafont"
+                            android:textStyle="bold"
+                            android:elevation="30dp"
+                            android:textSize="12sp">
+
+                        </com.google.android.material.textview.MaterialTextView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:background="@drawable/customborder"
+                            android:orientation="horizontal">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/card_LBL_phone"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/arimafont"
+                                android:textStyle="bold"
+                                android:layout_height="wrap_content"
+                                android:text="Phone number"
+                                android:textColor="#000000"
+                                android:padding="16dp"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/ic_call"
+                                android:layout_margin="5dp">
+
+                            </ImageView>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        >
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dp"
+                            android:padding="2dp"
+                            android:background="#4D5F85"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/arimafont"
+                            android:textStyle="bold"
+                            android:text="Price"
+                            android:elevation="30dp"
+                            android:textSize="12sp">
+
+                        </com.google.android.material.textview.MaterialTextView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:background="@drawable/customborder"
+                            android:orientation="horizontal">
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/card_LBL_price"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:text="PRICE $$"
+                                android:fontFamily="@font/arimafont"
+                                android:padding="16dp"
+                                android:textColor="#806C24"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/ic_price"
+                                android:layout_margin="5dp">
+                            </ImageView>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+
+
+
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="5dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/arimafont"
+                        android:textStyle="bold"
+                        android:background="#83868E"
+                        android:textColor="@color/white"
+                        android:text="Comments">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/card_TXT_nocomments"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/comments_LST_items"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        app:spanCount="4"
+                        android:background="#E7EEF6"
+                        tools:listitem="@layout/list_comment" />
+
+                    <LinearLayout
+
+                        android:id="@+id/card_LAY_putCommentSection"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:visibility="gone"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/card_EDITTXT_putComment"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@drawable/customborder"
+                            android:hint="Leave a comment">
+
+                        </EditText>
+                        <com.hadi.emojiratingbar.EmojiRatingBar
+                            android:id="@+id/emoji_rating_bar"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.15"
+                            android:layout_gravity="center"
+                            app:showText="true"
+                            app:showAllText="true"
+                            app:titleColor="#844848"
+                            android:layout_marginHorizontal="32dp"
+                            app:defaultValue="AWFUL"/>
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/card_BTN_submitComment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/arimafont"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            app:backgroundTint="@null"
+                            android:background="@drawable/buttonshape"
+                            android:textSize="16dp"
+                            android:text="Submit">
+
+                        </com.google.android.material.button.MaterialButton>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/card_LAY_newCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:lottie_url="https://assets7.lottiefiles.com/packages/lf20_ilwhiuo7.json"
+            app:lottie_autoPlay="true"
+            android:layout_gravity="center_horizontal"
+            app:lottie_loop="true"/>
+        <TextView
+            android:id="@+id/card_TXT_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:fontFamily="@font/arimafont"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#165A78"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center"
+            android:text="Oops!\nYou don't have a service card.\n Please create one to start offering your services."/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/card_BTN_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arimafont"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:backgroundTint="@null"
+            android:background="@drawable/buttonshape"
+            android:textSize="16dp"
+            android:text="Create a service card">
+        </com.google.android.material.button.MaterialButton>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

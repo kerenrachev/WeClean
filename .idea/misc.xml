@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/drawable/borderwhite.xml" value="0.2495" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/drawable/buttoncoolborder.xml" value="0.2495" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/drawable/buttonshape.xml" value="0.246" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/drawable/count.xml" value="0.25" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/drawable/customborder.xml" value="0.216" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/drawable/ic_launcher_background.xml" value="0.246" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/activity_fragment_google_maps.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/activity_login.xml" value="0.184375" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/activity_main2.xml" value="0.184375" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/activity_main_nav.xml" value="0.2140625" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/activity_sign_up.xml" value="0.1859375" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/activity_splash.xml" value="0.1859375" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/app_bar_activity_main_nav.xml" value="0.2140625" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/app_bar_activity_nav.xml" value="0.1859375" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/app_bar_activity_nav2.xml" value="0.1859375" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/app_bar_main.xml" value="0.184375" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/content_activity_main_nav.xml" value="0.1859375" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/content_activity_nav.xml" value="0.1859375" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/content_activity_nav2.xml" value="0.1859375" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/fragment__all_service_cards.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/fragment__jobs.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/fragment__list_jobs.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/fragment__list_service_cards.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/fragment_comments.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/fragment_edit_card.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/fragment_gallery.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/fragment_home.xml" value="0.1859375" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/fragment_jobs.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/fragment_listjob.xml" value="0.1859375" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/fragment_new_job.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/fragment_serviceCard.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/fragment_service_card.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/fragment_service_cards.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/fragment_service_giver_card.xml" value="0.1859375" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/fragment_slideshow.xml" value="0.36" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/list_card.xml" value="0.36" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/list_cards.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/list_comment.xml" value="0.36" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/list_jobs.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/list_notification.xml" value="0.44000000000000006" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/list_serviceCards.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/list_servicecard.xml" value="0.5" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/nav_header_activity_main_nav.xml" value="0.5" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/nav_header_main.xml" value="0.184375" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/notification.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/layout/notifications_popup.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/menu/activity__main__nav.xml" value="0.4" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/menu/activity_main_drawer.xml" value="0.1859375" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/menu/activity_nav_drawer.xml" value="0.1859375" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/keren/AndroidStudioProjects/WeClean/app/src/main/res/menu/drawer_meny.xml" value="0.184375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

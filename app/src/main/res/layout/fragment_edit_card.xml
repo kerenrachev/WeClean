@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Fragment_Service_Card">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arimafont"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="#104073"
+                android:layout_margin="12dp"
+                android:text="New Service Card"/>
+
+            <TextView
+                android:id="@+id/editcard_TXT_instruction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arimafont"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_margin="12dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="You don't have a service card. Please create one to start offering your services."/>
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/editcard_IMGBTN_uploadPic"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/semiRoundedImageView"
+                android:src="@drawable/ic_upload"
+                android:layout_margin="32dp">
+
+            </com.google.android.material.imageview.ShapeableImageView>
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/editcard_TXT_firstname"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/arimafont"
+                android:textStyle="bold"
+
+                android:hint="First Name"
+                >
+
+            </androidx.appcompat.widget.AppCompatEditText>
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/editcard_TXT_lastname"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/arimafont"
+                android:textStyle="bold"
+                android:hint="Last Name"
+                >
+            </androidx.appcompat.widget.AppCompatEditText>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/editcard_TXT_phonenum"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/arimafont"
+                android:textStyle="bold"
+                android:hint="Phone number"
+                >
+            </androidx.appcompat.widget.AppCompatEditText>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/editcard_TXT_price"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/arimafont"
+                android:textStyle="bold"
+                android:hint="$/hour"
+                >
+            </androidx.appcompat.widget.AppCompatEditText>
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/editcard_TXT_description"
+                android:layout_width="250dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:fontFamily="@font/arimafont"
+                android:textStyle="bold"
+                android:hint="Description"
+                >
+            </androidx.appcompat.widget.AppCompatEditText>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/editcard_BTN_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arimafont"
+                app:backgroundTint="@null"
+                android:background="@drawable/buttonshape"
+                android:textColor="#FFFFFF"
+                android:layout_margin="12dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Create a service card">
+            </com.google.android.material.button.MaterialButton>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

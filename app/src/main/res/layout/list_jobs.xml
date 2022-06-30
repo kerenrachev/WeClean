@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:elevation="10dp"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="18dp"
+        >
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFFFFF">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/jobs_IMG_user"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="#808080"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:layout_marginVertical="16dp"
+                        android:src="@drawable/ic_location">
+
+                    </ImageView>
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/job_LBL_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NAME"
+                        android:fontFamily="@font/arimafont"
+                        android:textStyle="bold"
+                        android:textColor="#1F3070"
+                        android:paddingVertical="16dp"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/job_LBL_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="DESC$"
+                    android:fontFamily="@font/arimafont"
+                    android:textStyle="bold"
+                    android:textColor="#919191"
+                    android:textSize="14sp" />
+
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_margin="6dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/job_BTN_offer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:padding="0dp"
+                        android:text="OFFER MYSELF"
+                        android:textSize="8dp"
+                        android:fontFamily="@font/arimafont"
+                        android:textStyle="bold"
+                        android:textColor="#1F3070"
+                        android:background="@drawable/buttoncoolborder"
+                        app:backgroundTint="@null"
+                        app:iconGravity="textStart" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/job_IMG_image"
+        android:layout_width="80dp"
+        android:layout_height="140dp"
+        android:layout_alignBottom="@id/card"
+        android:layout_marginStart="10dp"
+        android:elevation="10dp"
+        android:padding="4dp"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>

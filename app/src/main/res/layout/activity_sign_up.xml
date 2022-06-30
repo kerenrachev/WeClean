@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Activity_SignUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arimafont"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#17529C"
+            android:layout_gravity="center"
+            android:hint="Lets create your profile!"
+            >
+
+        </TextView>
+        <ProgressBar
+            android:id="@+id/sign_PROGBAR_progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btnShow"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/register_IMGBTN_uploadPic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/semiRoundedImageView"
+            android:src="@drawable/ic_upload"
+            android:layout_margin="32dp">
+
+        </com.google.android.material.imageview.ShapeableImageView>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/register_TXT_firstname"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arimafont"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:hint="First Name"
+            >
+
+        </androidx.appcompat.widget.AppCompatEditText>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/register_TXT_lastname"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arimafont"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:hint="Last Name"
+            >
+        </androidx.appcompat.widget.AppCompatEditText>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/register_TXT_phonenum"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arimafont"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:hint="Phone number"
+            >
+        </androidx.appcompat.widget.AppCompatEditText>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/register_BTN_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/arimafont"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:backgroundTint="@null"
+            android:background="@drawable/buttonshape"
+            android:textSize="16dp"
+            android:text="Register">
+
+        </com.google.android.material.button.MaterialButton>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

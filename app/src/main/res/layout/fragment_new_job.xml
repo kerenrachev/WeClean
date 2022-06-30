@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Fragment_New_Job">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/trafoofont"
+                android:textStyle="bold"
+                android:textColor="#244BBA"
+                android:text="New job"
+                android:textSize="30dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/arimafont"
+                android:textStyle="bold"
+                android:text="You are two clicks away from a clean house! We just need some details from you.."
+                android:textSize="16dp">
+
+            </TextView>
+
+            <FrameLayout
+                android:id="@+id/location_FRAME_map"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="0.6"
+                android:layout_marginHorizontal="24dp"
+                android:background="#45454545"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/arimafont"
+                    android:textStyle="bold"
+                    android:hint="Please choose location:"
+                    >
+                </TextView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/register_TXT_lastname"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_height="50dp">
+
+                    <fragment android:id="@+id/autocomplete_fragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+                        />
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/arimafont"
+                    android:textStyle="bold"
+                    android:hint="Please Describe the job in a few words:"
+                    android:layout_marginTop="12dp"
+                    >
+                </TextView>
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/newjob_TXT_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/borderwhite"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/arimafont"
+                    android:textStyle="bold"
+                    android:hint="Description"
+                    >
+
+                </androidx.appcompat.widget.AppCompatEditText>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/newjob_BTN_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/arimafont"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/buttonshape"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:paddingHorizontal="10dp"
+                    android:layout_margin="16dp"
+                    android:text="Submit">
+
+                </com.google.android.material.button.MaterialButton>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

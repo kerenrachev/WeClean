@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Activity_Splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/main_background"
+        android:gravity="bottom"
+        >
+
+            <com.google.android.material.button.MaterialButton
+
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/splash_BTN_sign"
+                android:layout_gravity="center_horizontal"
+                android:visibility="visible"
+                android:background="@drawable/buttonshape"
+                app:backgroundTint="@null"
+                app:strokeColor="#1F4083"
+                android:fontFamily="@font/fontyfont"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="32dp"
+                android:text="ENTER">
+
+
+
+            </com.google.android.material.button.MaterialButton>
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/splash_IMG_logo"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:lottie_url="https://assets5.lottiefiles.com/packages/lf20_xn3noiae.json"
+            app:lottie_autoPlay="true"
+            android:layout_gravity="center_horizontal"
+            app:lottie_loop="true"/>
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

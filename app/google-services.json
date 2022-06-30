@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "969491234466",
+    "project_id": "wecleanandroidapp",
+    "storage_bucket": "wecleanandroidapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969491234466:android:b052fa73d8f286e797a1fb",
+        "android_client_info": {
+          "package_name": "com.weclean.keren"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969491234466-863khpe2894fvt31g83b2sqs9nenoted.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ_zEL-fCTDV-Ud02eAuJVxOwBEtBfoN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969491234466-863khpe2894fvt31g83b2sqs9nenoted.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

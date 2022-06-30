@@ -14,6 +14,8 @@ We clean will make your life easier.
 
 ## :exclamation: Instructions 
 <h4>Please make sure to put your Google Maps API key in local.properties file:
+ </br>
+ 
 ```Java
 function test() {
   console.log("notice the blank line before this function?");

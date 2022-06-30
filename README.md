@@ -64,12 +64,11 @@ google.maps_api_key=YOU_API_KEY
 ### 👔: Jobs
 <h5>
 
- 
  - Only a user who has created a service giver card will be able to view listed jobs.
  - When a user without a service card clicks on "Jobs", the application will suggest him to create a service card.
  - Users can offer themselves for a job, which will send a notification to the job poster.
  - Users can post a new job to find a cleaner.
- - Users can view OTHERS jobs only at this point.</h5>
+ - Users can view only OTHER people's jobs at this point.</h5>
 
 |View Jobs and make an offer|Create New Job|
 |--|--|
@@ -79,6 +78,10 @@ google.maps_api_key=YOU_API_KEY
 
 ### 📇: Service Cards
 
+ - Users can create their own service giver card to start make offers on jobs.
+ - Users can view all service givers cards, see more details, ratings, etc.
+ - Users can rate other's service givers cards and leave comments, which will send notification to the service giver.</h5>
+
 |Create Service Card|View Service Cards|More Deatils|Rate Service Card|
 |--|--|--|--|
 |<img src="https://media.giphy.com/media/XVPoUNEsqmtDgX7ebV/giphy.gif" alt="animated"/>|<img src="https://media.giphy.com/media/3KttrfQb9tfbuqnIdg/giphy.gif" alt="animated"/>|<img src="https://media.giphy.com/media/69xbRl38qMYWRkKJEZ/giphy.gif" alt="animated"/>|<img src="https://media.giphy.com/media/ddaFKn22Z7c2BhSSRc/giphy.gif" alt="animated"/>|
@@ -86,6 +89,13 @@ google.maps_api_key=YOU_API_KEY
 </br>
 
 ### 🔔: Notifications
+
+ - Two types of notifications: Comment- when someone is rating my service card, and Offer- when someone is offering himself for a job I've posted. Each type has a different icon.
+ - Realtime notifications
+ - Notifications are sorted from newest to oldest.
+ - New notifications count marked in red.
+ - New notification has a "new" icon</h5>
+
 |Show Notifications|
 |--|
 |<img src="https://media.giphy.com/media/2aupQURcCNADCKN9zw/giphy.gif" alt="animated"/>|

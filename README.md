@@ -36,7 +36,7 @@ We clean will make your life easier.
 
 |View Jobs and make an offer|Create New Job|
 |--|--|
-|<img src="https://media.giphy.com/media/JS7mhYEFoRnbB7jWAZ/giphy.gif" alt="animated"/>|<img src="" alt="animated"/>|
+|<img src="https://media.giphy.com/media/JS7mhYEFoRnbB7jWAZ/giphy.gif" alt="animated"/>|<img src="https://media.giphy.com/media/ON3Blh5pjz37Fv3K63/giphy.gif" alt="animated"/>|
 
 </br>
 
@@ -44,7 +44,7 @@ We clean will make your life easier.
 
 |Create Service Card|View Service Cards|More Deatils|Rate Service Card|
 |--|--|--|--|
-|<img src="https://media.giphy.com/media/XVPoUNEsqmtDgX7ebV/giphy.gif" alt="animated"/>|<img src="" alt="animated"/>|<img src="https://media.giphy.com/media/69xbRl38qMYWRkKJEZ/giphy.gif" alt="animated"/>|<img src="https://media.giphy.com/media/ddaFKn22Z7c2BhSSRc/giphy.gif" alt="animated"/>|
+|<img src="https://media.giphy.com/media/XVPoUNEsqmtDgX7ebV/giphy.gif" alt="animated"/>|<img src="https://media.giphy.com/media/3KttrfQb9tfbuqnIdg/giphy.gif" alt="animated"/>|<img src="https://media.giphy.com/media/69xbRl38qMYWRkKJEZ/giphy.gif" alt="animated"/>|<img src="https://media.giphy.com/media/ddaFKn22Z7c2BhSSRc/giphy.gif" alt="animated"/>|
 
 </br>
 

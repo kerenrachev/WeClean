@@ -39,7 +39,7 @@ google.maps_api_key=YOU_API_KEY
 - [Future Plan](https://github.com/kerenrachev/WeClean_Android/blob/master/README.md#pencil-future-plan)</br>
 
 
-## :space_invader: Features and used technologies
+## :space_invader: Features and technologies
 - FireBase storage
 - FireBase Auth
 - FireBase Realtime DB

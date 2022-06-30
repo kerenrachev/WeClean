@@ -5,7 +5,7 @@
 
 
 ## :information_source: About 
-- You spend a lot of time and energy on searching for a cleaner?
+- Fo you spend a lot of time and energy on searching after a cleaner?
 - Do you want to be able to read recommendations before ordering a cleaner? 
 - Are you a cleaner that is looking for new customers?
 <h4 align="center">This app solves the problem!</br>

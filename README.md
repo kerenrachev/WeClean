@@ -51,7 +51,7 @@ We clean will make your life easier.
 ### 🔔: Notifications
 |Show Notifications|
 |--|
-|<img src="" alt="animated"/>|
+|<img src="https://media.giphy.com/media/2aupQURcCNADCKN9zw/giphy.gif" alt="animated"/>|
 
 </br>
 

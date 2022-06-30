@@ -14,13 +14,14 @@ We clean will make your life easier.
 
 ## :exclamation: Instructions 
 <h4>Please make sure to put your Google Maps API key in local.properties file:
-```
+```Java
 function test() {
   console.log("notice the blank line before this function?");
 }
 ```
   
-  </h4> 
+</h4> 
+  
 ## :link: Menu:
 
 - [Features](https://github.com/kerenrachev/WeClean/blob/master/README.md#space_invader-features)</br>

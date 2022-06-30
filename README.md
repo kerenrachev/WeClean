@@ -13,9 +13,7 @@ We clean will make your life easier.
 </h4> 
 
 ## :exclamation: Instructions 
-<h4 align="center">This app solves the problem!</br>
-We clean will make your life easier. 
-</h4> 
+<h4 align="center">Please make sure to put your Google Maps API key in local.properties file:</h4> 
 
 ## :link: Menu:
 

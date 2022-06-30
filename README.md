@@ -34,10 +34,9 @@ google.maps_api_key=YOU_API_KEY
   
 ## :link: Menu:
 
-- [Features](https://github.com/kerenrachev/WeClean/blob/master/README.md#space_invader-features)</br>
-- [Screen Gifs](https://github.com/kerenrachev/WeClean/blob/master/README.md#iphone-screen-gifs)</br>
-- [Future Plan](https://github.com/kerenrachev/WeClean/blob/master/README.md#pencil-future-plan)</br>
-- [Credits](https://github.com/kerenrachev/WeClean/blob/master/README.md#pray-credits)</br>
+- [Features](https://github.com/kerenrachev/WeClean_Android/blob/master/README.md#space_invader-features)</br>
+- [Screen Gifs](https://github.com/kerenrachev/WeClean_Android/blob/master/README.md#iphone-screen-gifs)</br>
+- [Future Plan](https://github.com/kerenrachev/WeClean_Android/blob/master/README.md#pencil-future-plan)</br>
 
 
 ## :space_invader: Features and used technologies

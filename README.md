@@ -63,17 +63,7 @@ google.maps_api_key=YOU_API_KEY
 
 ### 👔: Jobs
 <h5>
- - Only a user who has created a service giver card will be able to view listed jobs.
-- FireBase Auth
-- FireBase Realtime DB
-- Google maps
-- Google Places Auto Complete
-- Recycle Views\ Adapters
-- Fragments
-- Navigator bars
-- Animations
-- Realtime Notifications
- 
+
  
  - Only a user who has created a service giver card will be able to view listed jobs.
  - When a user without a service card clicks on "Jobs", the application will suggest him to create a service card.
